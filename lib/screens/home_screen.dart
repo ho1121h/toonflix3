@@ -113,13 +113,13 @@ class _HomeScreenState extends State<HomeScreen> {
                     iconSize: 80,
                     color: Theme.of(context).cardColor,
                     onPressed: onStopPressed,
-                    icon: const Icon(Icons.restart_alt_outlined),
+                    icon: const Icon(Icons.stop),
                   ),
                 ],
               ),
             ),
           ),
-          // Flexible(
+          // Flexible( //이 방법은 간격이 너무 넓다.
           //     flex: 2,
           //     child: Center(
           //       child: IconButton(
